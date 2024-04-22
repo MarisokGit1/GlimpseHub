@@ -1,0 +1,72 @@
+﻿@model IEnumerable<Picture>
+
+@{
+    ViewData["Title"] = "Home Page";
+
+}
+
+@if (!User.Identity.IsAuthenticated)
+{
+    <div>
+
+        <h1 class="text-center">Hello and welcome to my web application</h1>
+        <h2 class="text-center"><strong>GlimpseHub</strong></h2>
+        <hr />
+        <div class="d-flex flex-wrap m-4 border-8 justify-content-center">
+            <div class="card" style="width: 50rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Login or Register</h5>
+                    <p class="card-text">The web application is about posting/reviewing photos.You can create a gallery and post pictures into them you just have to login/register.</p>
+                    <a asp-area="Identity" asp-page="/Account/Login" class="btn btn-primary">Login</a>
+                    <a asp-area="Identity" asp-page="/Account/Register" class="btn btn-primary">Register</a>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+}
+@if (User.Identity.IsAuthenticated)
+{
+    <div class="m-3 mt-4">
+        <h1 style="margin-left:63rem"><strong>Hello,@User.Identity.Name</strong></h1>
+        <br /> <br /> <br />
+        <h2 class="text-center">Here are some of our photos</h2>
+        <hr /><br />
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            @foreach (var pic in Model)
+            {
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="..." alt="First slide">
+                    </div>
+
+                </div>
+
+            } <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
+}
+
+
+@section Scripts {
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js" crossorigin="anonymous"></script>
+    <script src="~/startbootstrap-sb-admin-master/dist/assets/demo/chart-area-demo.js"></script>
+    <script src="~/startbootstrap-sb-admin-master/dist/assets/demo/chart-bar-demo.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
+}

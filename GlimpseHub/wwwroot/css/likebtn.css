@@ -1,0 +1,27 @@
+﻿
+.like-btn {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    position: relative;
+}
+
+    .like-btn:hover .like-icon {
+        color: #ff5555;
+    }
+
+.like-icon::before {
+    content: "\2764";
+    font-size: 16px;
+    color: #999999;
+    margin-right: 4px;
+}
+
+.like-text {
+    margin-left: 4px;
+    color: #333333;
+}

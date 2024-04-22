@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Gallery>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<head>
+    <link rel="stylesheet" href="~/css/likebtn.css">
+</head>
+
+<h1 class="text-center mt-3">Index</h1>
+<div class="d-flex flex-wrap m-4 border-8 justify-content-between">
+
+
+
+        @foreach (Gallery gal in Model)
+        {
+            <div class="card mb-4" style="width: 18rem;">
+                <img src="@gal.MainPicture" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"> @Html.DisplayFor(modelItem => gal.Name)</h5>
+                    <p class="card-text">@Html.DisplayFor(modelItem => gal.Description)</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">@Html.DisplayFor(modelItem => gal.Author.UserName)</li>
+                    <li class="list-group-item">@Html.DisplayFor(modelItem => gal.Category.Name)</li>
+                    <li class="list-group-item">@Html.DisplayFor(modelItem => gal.CreatedOn)</li>
+                </ul>
+                <div class="card-body">
+                    <a asp-action="Details" asp-route-id="@gal.Id" class="card-link">Look at pictures</a>
+                    <button class="like-btn">
+                        <span class="like-icon"></span>
+                        <span class="like-text">Like</span>
+                    </button>
+                <button class="like-btn">
+                    <span class="like-icon"></span>
+                    <span class="like-text">Like</span>
+                </button>
+                <button class="like-btn">
+                    <span class="like-icon"></span>
+                    <span class="like-text">Like</span>
+                </button>
+                </div>
+            </div>
+        }
+ 
+</div>

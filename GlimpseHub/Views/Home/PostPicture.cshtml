@@ -1,0 +1,18 @@
+﻿@model Picture
+
+@{
+    ViewData["Title"] = "Make a post!";
+    
+}
+<h1>@ViewData["Title"]</h1>
+
+<form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="PostPicture">
+    <label asp-for="PictureUrl">File</label>
+    <input id="file" name="file" type="file" />
+    <button>Upload</button>
+
+    <span class="text-success">
+        @ViewBag.Message
+    </span>
+</form>
+    

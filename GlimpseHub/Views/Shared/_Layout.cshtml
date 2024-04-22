@@ -1,0 +1,152 @@
+﻿@using GlimpseHub.Data.Models
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<AppUser> userManager
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - GlimpseHub</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/GlimpseHub.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+    <link href="~/startbootstrap-sb-admin-master/dist/css/styles.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+        <!-- Navbar Brand-->
+        <a class="navbar-brand ps-3" asp-controller="Home" asp-action="Index">GlimpseHub</a>
+        <!-- Sidebar Toggle-->
+        <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
+        <!-- Navbar Search-->
+        <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+            <div class="input-group">
+                <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />
+                <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
+            </div>
+        </form>
+        <!-- Navbar-->
+        @if (User.Identity.IsAuthenticated)
+        {
+            <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#!">Settings</a></li>
+                        <li><a class="dropdown-item" href="#!">Activity Log</a></li>
+                        <li><hr class="dropdown-divider" /></li>
+                        @*  <li><a class="dropdown-item" href="#!">Logout</a></li> *@
+                        <li>
+                            <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                <button type="submit" class="dropdown-item">Logout</button>
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        }
+        else if (!User.Identity.IsAuthenticated)
+        {
+            <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" asp-area="Identity" asp-page="/Account/Login">Log in</a></li>
+                        <li><a class="dropdown-item" asp-area="Identity" asp-page="/Account/Register">Register</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+        }
+    </nav>
+    <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+                        <div class="sb-sidenav-menu-heading">Core</div>
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">
+                            <div class="sb-nav-link-icon"><i class="fas fa-home"></i></div>
+                            Home
+                        </a>
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="PostPicture">
+                            <div class="sb-nav-link-icon"><i class="fas fa-camera"></i></div>
+                            Make a post
+                        </a>
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Contacts">
+                            <div class="sb-nav-link-icon"><i class="fas fa-phone"></i></div>
+                            Contacts
+                        </a>
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">
+                            <div class="sb-nav-link-icon"><i class="fas fa-file-alt"></i></div>
+                            Privacy
+                        </a>
+                        <div class="sb-sidenav-menu-heading">Galleries </div>
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                            <div class="sb-nav-link-icon"><i class="fab fa-envira"></i></div>
+                            Manage
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+                        <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <a class="nav-link" asp-controller="Galleries" asp-action="Index" asp-route-type="personal">My Precious</a>
+                                }
+
+                                <a class="nav-link" asp-controller="Galleries" asp-action="Index">View All</a>
+                                <a class="nav-link" asp-controller="Galleries" asp-action="Index" asp-route-type="most-wanted">View Most Wanted</a>
+                                <a class="nav-link" asp-controller="Galleries" asp-action="Index" asp-route-type="closed">View Closed</a>
+
+                            </nav>
+                        </div>
+
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <div class="sb-sidenav-menu-heading"><i class="fas fa-user-lock"></i> Admin Panel</div>
+                                <a class="nav-link" asp-controller="Admin" asp-action="Index" asp-route-type="pending">View Pending Galleries</a>
+                            }
+                        </div>
+                    </div>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <div class="sb-sidenav-footer">
+                            <div class="small">Logged in as:</div>
+                            @User.Identity.Name
+                        </div>
+                    }
+                    else if (!User.Identity.IsAuthenticated)
+                    {
+
+                    }
+            </nav>
+        </div>
+        <div id="layoutSidenav_content">
+            <div class="containerASP">
+                <main role="main" class="pb-3">
+                    @RenderBody()
+                </main>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <script src="~/startbootstrap-sb-admin-master/dist/js/scripts.js"></script>
+    <script src="~/startbootstrap-sb-admin-master/dist/js/datatables-simple-demo.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>
+
