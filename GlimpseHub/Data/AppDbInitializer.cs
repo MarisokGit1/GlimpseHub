@@ -109,7 +109,7 @@ namespace GlimpseHub.Data
                             },
                             new Gallery()
                             {
-                              Name = "Family Pictures",
+                             Name = "Family Pictures",
                              CreatedOn = DateTime.Now.AddDays(-10).Date,
                              Description = "My family pictures are stored in this gallery!",
                              IsDeleted = false,
