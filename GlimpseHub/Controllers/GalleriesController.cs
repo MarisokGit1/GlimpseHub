@@ -28,7 +28,7 @@ namespace GlimpseHub.Controllers
         // GET: Galleries
         public async Task<IActionResult> Index(string type)
         {
-
+            
             List<Gallery> galleriesFound = new List<Gallery>();
 
 

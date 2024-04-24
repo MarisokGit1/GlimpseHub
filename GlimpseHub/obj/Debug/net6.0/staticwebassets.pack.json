@@ -1,0 +1,961 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\GlimpseHub.bundle.scp.css",
+      "PackagePath": "staticwebassets\\GlimpseHub.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\css\\likebtn.css",
+      "PackagePath": "staticwebassets\\css\\likebtn.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\dist\\index.html",
+      "PackagePath": "staticwebassets\\dist\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\css\\flex-slider.css",
+      "PackagePath": "staticwebassets\\lib\\assets\\css\\flex-slider.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\lib\\assets\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\css\\owl.css",
+      "PackagePath": "staticwebassets\\lib\\assets\\css\\owl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\css\\templatemo-snapx-photography.css",
+      "PackagePath": "staticwebassets\\lib\\assets\\css\\templatemo-snapx-photography.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\Screenshot 2024-03-13 133816.png",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\Screenshot 2024-03-13 133816.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\author.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\author.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\banner-bg.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\banner-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\close.png",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\closed-01.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\closed-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\closed-02.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\closed-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\closed-03.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\closed-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\closed-bg.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\closed-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\contest-01.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\contest-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\contest-02.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\contest-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\contest-03.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\contest-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\contest-04.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\contest-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\featured-01.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\featured-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\featured-02.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\featured-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\featured-03.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\featured-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\featured-image-01.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\featured-image-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\featured-image-02.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\featured-image-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\featured-image-03.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\featured-image-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\featured-image-04.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\featured-image-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\featured-image-05.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\featured-image-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\heading-bg.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\heading-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\icon-01.png",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\icon-01.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\icon-02.png",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\icon-02.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\icon-03.png",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\icon-03.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\icon-04.png",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\icon-04.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\next.png",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\photo-video-01.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\photo-video-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\photo-video-02.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\photo-video-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\photo-video-03.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\photo-video-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\photo-video-04.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\photo-video-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\photo-video-05.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\photo-video-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\popular-01.png",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\popular-01.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\popular-02.png",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\popular-02.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\popular-03.png",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\popular-03.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\popular-04.png",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\popular-04.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\portfolio-01.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\portfolio-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\portfolio-02.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\portfolio-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\portfolio-03.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\portfolio-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\portfolio-04.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\portfolio-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\portfolio-05.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\portfolio-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\portfolio-06.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\portfolio-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\portfolio-07.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\portfolio-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\portfolio-08.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\portfolio-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\portfolio-09.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\portfolio-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\prev.png",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\pricing-01.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\pricing-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\pricing-02.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\pricing-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\pricing-03.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\pricing-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\user-avatar.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\user-avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\waiting-01.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\waiting-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\waiting-02.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\waiting-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\waiting-03.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\waiting-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\images\\waiting-04.jpg",
+      "PackagePath": "staticwebassets\\lib\\assets\\images\\waiting-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\lib\\assets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\js\\isotope.js",
+      "PackagePath": "staticwebassets\\lib\\assets\\js\\isotope.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\js\\isotope.min.js",
+      "PackagePath": "staticwebassets\\lib\\assets\\js\\isotope.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\js\\owl-carousel.js",
+      "PackagePath": "staticwebassets\\lib\\assets\\js\\owl-carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\js\\popup.js",
+      "PackagePath": "staticwebassets\\lib\\assets\\js\\popup.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\lib\\assets\\js\\tabs.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\assets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\assets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\assets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\assets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\assets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\assets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\lib\\assets\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\assets\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\lib\\assets\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\vendor\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\vendor\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\vendor\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\vendor\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\vendor\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\vendor\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\vendor\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\vendor\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\vendor\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\lib\\vendor\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\vendor\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\slider-main\\app.js",
+      "PackagePath": "staticwebassets\\slider-main\\app.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\slider-main\\image\\img1.png",
+      "PackagePath": "staticwebassets\\slider-main\\image\\img1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\slider-main\\image\\img2.jpg",
+      "PackagePath": "staticwebassets\\slider-main\\image\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\slider-main\\image\\img3.jpg",
+      "PackagePath": "staticwebassets\\slider-main\\image\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\slider-main\\image\\img4.jpg",
+      "PackagePath": "staticwebassets\\slider-main\\image\\img4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\slider-main\\image\\img5.jpg",
+      "PackagePath": "staticwebassets\\slider-main\\image\\img5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\slider-main\\index.html",
+      "PackagePath": "staticwebassets\\slider-main\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\slider-main\\style.css",
+      "PackagePath": "staticwebassets\\slider-main\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\.editorconfig",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\.editorconfig"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\.gitignore",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\.gitignore"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\LICENSE",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\README.md",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\dist\\401.html",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\dist\\401.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\dist\\404.html",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\dist\\404.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\dist\\500.html",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\dist\\500.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\dist\\assets\\demo\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\dist\\assets\\demo\\chart-area-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\dist\\assets\\demo\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\dist\\assets\\demo\\chart-bar-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\dist\\assets\\demo\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\dist\\assets\\demo\\chart-pie-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\dist\\assets\\demo\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\dist\\assets\\demo\\datatables-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\dist\\assets\\img\\error-404-monochrome.svg",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\dist\\assets\\img\\error-404-monochrome.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\dist\\charts.html",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\dist\\charts.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\dist\\css\\styles.css",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\dist\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\dist\\index.html",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\dist\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\dist\\js\\datatables-simple-demo.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\dist\\js\\datatables-simple-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\dist\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\dist\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\dist\\layout-sidenav-light.html",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\dist\\layout-sidenav-light.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\dist\\layout-static.html",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\dist\\layout-static.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\dist\\login.html",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\dist\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\dist\\password.html",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\dist\\password.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\dist\\register.html",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\dist\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\dist\\tables.html",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\dist\\tables.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\package-lock.json",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\package-lock.json"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\package.json",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\scripts\\build-assets.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\scripts\\build-assets.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\scripts\\build-pug.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\scripts\\build-pug.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\scripts\\build-scripts.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\scripts\\build-scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\scripts\\build-scss.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\scripts\\build-scss.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\scripts\\clean.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\scripts\\clean.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\scripts\\render-assets.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\scripts\\render-assets.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\scripts\\render-pug.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\scripts\\render-pug.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\scripts\\render-scripts.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\scripts\\render-scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\scripts\\render-scss.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\scripts\\render-scss.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\scripts\\sb-watch.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\scripts\\sb-watch.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\scripts\\start-debug.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\scripts\\start-debug.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\scripts\\start.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\scripts\\start.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\assets\\demo\\chart-area-demo.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\assets\\demo\\chart-area-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\assets\\demo\\chart-bar-demo.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\assets\\demo\\chart-bar-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\assets\\demo\\chart-pie-demo.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\assets\\demo\\chart-pie-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\assets\\demo\\datatables-demo.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\assets\\demo\\datatables-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\assets\\img\\error-404-monochrome.svg",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\assets\\img\\error-404-monochrome.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\js\\datatables-simple-demo.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\js\\datatables-simple-demo.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\js\\scripts.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\layouts\\authentication.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\layouts\\authentication.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\layouts\\dashboard.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\layouts\\dashboard.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\layouts\\error.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\layouts\\error.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\layouts\\includes\\footer.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\layouts\\includes\\footer.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\layouts\\includes\\head\\css.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\layouts\\includes\\head\\css.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\layouts\\includes\\head\\icons.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\layouts\\includes\\head\\icons.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\layouts\\includes\\head\\meta.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\layouts\\includes\\head\\meta.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\layouts\\includes\\head\\title.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\layouts\\includes\\head\\title.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\layouts\\includes\\navigation\\sidenav.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\layouts\\includes\\navigation\\sidenav.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\layouts\\includes\\navigation\\topnav.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\layouts\\includes\\navigation\\topnav.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\layouts\\includes\\scripts.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\layouts\\includes\\scripts.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\pages\\401.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\pages\\401.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\pages\\404.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\pages\\404.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\pages\\500.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\pages\\500.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\pages\\charts.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\pages\\charts.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\pages\\includes\\datatable.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\pages\\includes\\datatable.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\pages\\includes\\page-header.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\pages\\includes\\page-header.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\pages\\index.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\pages\\index.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\pages\\layout-sidenav-light.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\pages\\layout-sidenav-light.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\pages\\layout-static.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\pages\\layout-static.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\pages\\login.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\pages\\login.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\pages\\password.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\pages\\password.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\pages\\register.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\pages\\register.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\pug\\pages\\tables.pug",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\pug\\pages\\tables.pug"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\scss\\_global.scss",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\scss\\_global.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\scss\\layout\\_authentication.scss",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\scss\\layout\\_authentication.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\scss\\layout\\_dashboard-default.scss",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\scss\\layout\\_dashboard-default.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\scss\\layout\\_dashboard-fixed.scss",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\scss\\layout\\_dashboard-fixed.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\scss\\layout\\_error.scss",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\scss\\layout\\_error.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\scss\\navigation\\_nav.scss",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\scss\\navigation\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\scss\\navigation\\_topnav.scss",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\scss\\navigation\\_topnav.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\scss\\navigation\\sidenav\\_sidenav-dark.scss",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\scss\\navigation\\sidenav\\_sidenav-dark.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\scss\\navigation\\sidenav\\_sidenav-light.scss",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\scss\\navigation\\sidenav\\_sidenav-light.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\scss\\navigation\\sidenav\\_sidenav.scss",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\scss\\navigation\\sidenav\\_sidenav.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\scss\\plugins\\simple-datatables.scss",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\scss\\plugins\\simple-datatables.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\scss\\styles.scss",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\scss\\styles.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\scss\\variables\\_navigation.scss",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\scss\\variables\\_navigation.scss"
+    },
+    {
+      "Id": "C:\\Users\\User\\Desktop\\GlimpseHub\\GlimpseHub\\wwwroot\\startbootstrap-sb-admin-master\\src\\scss\\variables\\_spacing.scss",
+      "PackagePath": "staticwebassets\\startbootstrap-sb-admin-master\\src\\scss\\variables\\_spacing.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.GlimpseHub.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.GlimpseHub.props",
+      "PackagePath": "build\\GlimpseHub.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.GlimpseHub.props",
+      "PackagePath": "buildMultiTargeting\\GlimpseHub.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.GlimpseHub.props",
+      "PackagePath": "buildTransitive\\GlimpseHub.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
