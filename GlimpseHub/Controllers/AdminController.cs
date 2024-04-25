@@ -10,7 +10,7 @@ using GlimpseHub.Data.Models.Enum;
 
 namespace GlimpseHub.Controllers
 {
-    [Authorize(Roles ="Admin")]
+    [Authorize(Roles = "Admin")]
     public class AdminController : Controller
     {
         private readonly ApplicationDbContext dbcontext;
@@ -27,7 +27,11 @@ namespace GlimpseHub.Controllers
             var galFound = dbcontext.Galleries.Where(g => g.Status == Status.Pending).ToList();
             return View(galFound);
         }
+        public IActionResult ChangeStatus(int galId,Status status)
+        {
 
+            return RedirectToAction("Index");
+        }
         
     }
 }

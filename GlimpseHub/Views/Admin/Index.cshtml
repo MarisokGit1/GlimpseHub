@@ -34,9 +34,13 @@
        
     </div>
     <div class="d-flex flex-wrap m-4 border-8 justify-content-around">
-
-            <button type="button" asp-route-id="@Status.Open" class="btn btn-success align-self-sm-center btn-lg">Approve Gallery</button>
-            <button type="button" asp-route-id="@Status.Closed"  class="btn btn-danger btn-lg">Dissapprove Gallery</button>
+        <form method="post" asp-controller="Admin" asp-action="ChangeStatus">
+            <button type="button" asp-route-status="@Status.Open" value="status" class="btn btn-success align-self-sm-center btn-lg">Approve Gallery</button>
+            </form>
+            <form method="post" asp-controller="Admin" asp-action="ChangeStatus">
+                <input type="hidden" value="status" @gal.Id />
+                <button type="submit" asp-route-status="@Status.Closed"  class="btn btn-danger btn-lg">Dissapprove Gallery</button>
+            </form>
         </div>
         }
 </body> 

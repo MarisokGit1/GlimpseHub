@@ -9,10 +9,7 @@
 <form method="post" enctype="multipart/form-data" asp-controller="Home" asp-action="PostPicture">
     <label asp-for="PictureUrl">File</label>
     <input id="file" name="file" type="file" />
-    <button>Upload</button>
+    <button type="submit">Upload</button>
 
-    <span class="text-success">
-        @ViewBag.Message
-    </span>
 </form>
     

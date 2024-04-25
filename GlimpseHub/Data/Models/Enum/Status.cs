@@ -2,8 +2,8 @@
 {
     public enum Status
     {
-        Open=0,
-        Closed=1,
-        Pending=2 
+        Pending=0,
+        Open=1,
+        Closed=2 
     }
 }

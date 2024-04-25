@@ -29,19 +29,21 @@ namespace GlimpseHub.Controllers
 
         }
 
-        public IActionResult Index()
-        {
-            List<Picture> pictures = dbContext.Pictures.ToList();
-            return View(pictures);
-        }
-
-        public async Task<IActionResult> Privacy()
+        public async Task<IActionResult> Index()
         {
             if (!await dbInitializer.DBHasDataAsync())
             {
                 await dbInitializer.SeedAllDataAsync();
             }
+            List<Picture> pictures = dbContext.Pictures.ToList();
+            return View(pictures);
+          
+          
+        }
 
+        public async Task<IActionResult> Privacy()
+        {
+           
             return View();
         }
         public  IActionResult Contacts()
@@ -56,9 +58,17 @@ namespace GlimpseHub.Controllers
         }
 
         [HttpPost]
-        public ActionResult PostPicture(IFormFile file)
-        {
-            return View(Index);
+        public async Task<ActionResult> PostPictureAsync(Picture picture, IFormFile file)
+        { 
+            string picURL = cloudService.Upload(file);
+            picture.PictureUrl = picURL;
+            if (ModelState.IsValid)
+            {
+                dbContext.Add(picture);
+                await dbContext.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return RedirectToAction("Index");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

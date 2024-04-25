@@ -168,7 +168,7 @@ namespace GlimpseHub.Data
                              Description = "This is where I post my achievments about games",
                              IsDeleted = false,
                              IsPrivate = false,
-                             Category=categories[3],
+                             Category=categories[4],
                              Author=users[1],
                              MainPicture = "https://media.gq-magazine.co.uk/photos/645b5c3c8223a5c3801b8b26/16:9/w_1280,c_limit/100-best-games-hp-b.jpg"
                              ,Pictures = "https://cdna.artstation.com/p/top_row_items/images/000/002/656/20231128111535/original/hcotm-keyart-890x500.jpg?1701191735|https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/04/10-Indie-Games-With-The-Best-Looking-Pixel-Art.jpg|https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiT5VnHZeywu4exqIk2YCAoJ69PodQ_7TdYwTszjNcIg&s".Split("|").Select(url=>new Picture(url)).ToArray()
@@ -181,7 +181,7 @@ namespace GlimpseHub.Data
                              Description = "I love cars and here is a collection of my favourite cars",
                              IsDeleted = false,
                              IsPrivate = false,
-                             Category=categories[4],
+                             Category=categories[5],
                              Author=users[1],
                              MainPicture = "https://www.mercedes-benz.bg/content/bulgaria/bg/passengercars/models/coupe/amg-gt-2-door/overview/_jcr_content/root/responsivegrid/tabs_1864030011_copy/tabitem/simple_teaser/simple_teaser_item_1148938149.component.damq2.3393625603645.jpg/mercedes-amg-gt-c192-equipment-exterior-chromepackage-exterior-764x573-07-2023.jpg"
                              ,Pictures = "https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/2020-Chevrolet-Corvette-Stingray/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=960|https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHn8NmUKx3Ca2nCVQBf5KPFeLG4kRyA6hCh9lcvq6o7A&s|https://autobild.bg/wp-content/uploads/2023/07/mercedes-amg-g63-grand-edition-3.jpg".Split("|").Select(url=>new Picture(url)).ToArray()
@@ -194,7 +194,7 @@ namespace GlimpseHub.Data
                              Description = "Cool motorcycle pictures",
                              IsDeleted = false,
                              IsPrivate = false,
-                             Category=categories[5],
+                             Category=categories[6],
                              Author=users[1],
                              MainPicture = "https://content2.kawasaki.com/ContentStorage/KMC/Products/9026/eed00231-bf59-4521-8da9-5597fb475736.png?w=767"
                              ,Pictures = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSJUHnO4IOtZuY_fMdVYVOXMHI2ePusPW6CQsUZKR9iA&s|https://andromedamoto.com/cdn/shop/articles/hypersport.jpg?v=1675194839|https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKIZ83xU7lFhBRpPq8oMZFKT0EUZ2n5bgtynRPeCaYfA&s"
@@ -208,7 +208,7 @@ namespace GlimpseHub.Data
                              Description = "Some of the finest sports moments/pictures.",
                              IsDeleted = false,
                              IsPrivate = false,
-                             Category=categories[6],
+                             Category=categories[7],
                              Author=users[1],
                              MainPicture = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKq0EeZGH2DCjRYLxbwytpcjdLejbVPLfDQQ&s"
                             ,Pictures = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_o2CzLIBX-KKWqK9idgCo2VUmzF1OsM42A7UP5vidA&s|https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2rLamnNwmLzxTOVCwYxcgJchuguLKa4XYuhENrNnZWQ&s|https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iji_Mh_Y9JBY/v2/-1x-1.jpg".Split("|").Select(url => new Picture(url)).ToArray(),
@@ -231,16 +231,16 @@ namespace GlimpseHub.Data
 
         private async Task CreateRolesAndUsersAsync()
         {
-            var roles = (new[] { "Admin", "Plebei" }).Select(x => new IdentityRole(x));
+            var roles = (new[] { "Admin", "Member" }).Select(x => new IdentityRole(x));
             foreach (var role in roles)
             {
                 await rManager.CreateAsync(role);
             }
 
-            await uManager.CreateAsync(users[0], "Maringotiniqt123,");
-            await uManager.CreateAsync(users[1], "Maringotiniqt123,");
+            await uManager.CreateAsync(users[0], "AdminAccount123,");
+            await uManager.CreateAsync(users[1], "MemberAccount123,");
             await uManager.AddToRoleAsync(users[0], "Admin");
-            await uManager.AddToRoleAsync(users[1], "Plebei");
+            await uManager.AddToRoleAsync(users[1], "Member");
         }
         //Categories
         private async Task SeedCategoriesAsync()

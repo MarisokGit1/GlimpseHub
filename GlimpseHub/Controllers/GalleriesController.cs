@@ -105,7 +105,9 @@ namespace GlimpseHub.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Description,IsPrivate,AppUserId,CategoryId,Id,Name,CreatedOn,IsDeleted")] Gallery gallery, IFormFile file)
-        {
+        { 
+           /* string picURL = cloudinary.Upload(file);
+            gallery.MainPicture = picURL;*/
             if (ModelState.IsValid)
             {
                 _context.Add(gallery);
@@ -117,11 +119,7 @@ namespace GlimpseHub.Controllers
             ViewData["AppUserId"] = new SelectList(_context.Users, "Id", "Id", gallery.AppUserId);
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Id", gallery.CategoryId);
 
-            string picURL = cloudinary.Upload(file);
-            using (var fs = new FileStream(picURL, FileMode.Create))
-            {
-                await file.CopyToAsync(fs);
-            }
+           
             return View(gallery);
         }
 

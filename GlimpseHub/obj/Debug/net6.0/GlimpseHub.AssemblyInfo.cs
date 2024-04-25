@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GlimpseHub")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+556f32ea4ef902d8509b753853bbc7e4cb22f7a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5fd1b1ed512aa58387f0f900ba5ba0b23aa4db73")]
 [assembly: System.Reflection.AssemblyProductAttribute("GlimpseHub")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GlimpseHub")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
